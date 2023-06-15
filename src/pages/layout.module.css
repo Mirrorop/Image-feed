@@ -1,0 +1,45 @@
+.headerText{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.imageList{
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.imageList ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    flex-flow: wrap;
+}
+
+.imageList ul li{
+    align-items:center;
+    width: 33%;
+    margin-bottom:10px;
+}
+
+.imageList ul li img {
+    width: 90%;
+    height:90%;
+    display: block;
+    object-fit:cover;
+}
+
+.imageList ul li span {
+    font-size: 8px;
+    text-align: center;
+}
+
+.buttonArea {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.buttonArea button {
+    width: 10%
+}
